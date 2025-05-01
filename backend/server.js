@@ -10,6 +10,7 @@ const FRONTEND_URL = require('./config/config').FRONTEND_URL;
 
 const app = express();
 
+app.use(express.static('../client/dist/index.html'));
 // Configuración de CORS
 app.use(cors({
     credentials: true,
