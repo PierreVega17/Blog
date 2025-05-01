@@ -1,5 +1,5 @@
-const GOOGLE_URL = '/api/auth/google/callback';
-const GITHUB_URL = '/api/auth/github/callback';
+const GOOGLE_URL = 'https://blog-onay.onrender.com/api/auth/google/callback';
+const GITHUB_URL = 'https://blog-onay.onrender.com/api/auth/github/callback';
 const LOGIN_URL = '/api/auth/login';
 const REGISTER_URL = '/api/auth/register';
 const VERIFY_URL = '/api/auth/verify'; // Ruta protegida
