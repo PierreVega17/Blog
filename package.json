@@ -10,7 +10,7 @@
   "scripts": {
     "install:frontend": "cd client && npm install",
     "build:frontend": "cd client && npm run build",
-    "start": "cd backend && npm start"
+    "start": "cd backend && npm run start"
   },
   "keywords": [],
   "author": "",
