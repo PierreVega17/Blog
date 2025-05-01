@@ -124,7 +124,8 @@ export default function PostForm({ onCreate }) {
             backgroundColor: themeStyles.inputBackground,
             color: themeStyles.inputColor
           }}
-          onClick={focusEditor} // Enfocar el editor al hacer clic
+          onClick={focusEditor}
+          onTouchStart={focusEditor} // Enfocar el editor al hacer clic
         >
           <Editor
             ref={editorRef}
