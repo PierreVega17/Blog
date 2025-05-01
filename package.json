@@ -8,8 +8,9 @@
   ],
   "main": "index.js",
   "scripts": {
-    "build:frontend": "cd packages/frontend && npm run build",
-    "start:backend": "cd packages/backend && npm start"
+    "build": "npm run build --workspace=client",
+    "start": "npm run start --workspace=backend",
+    "dev:backend": "npm run build && npm run dev --workspace=backend"
   },
   "keywords": [],
   "author": "",
